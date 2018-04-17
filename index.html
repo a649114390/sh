@@ -5,8 +5,9 @@
 <title>Home</title>
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
 <link href="css/style.css" type="text/css" rel="stylesheet">
-<link href="css/main.css" type="text/css" rel="stylesheet">
+<!--<link href="css/main.css" type="text/css" rel="stylesheet">-->
 <link rel="stylesheet" type="text/css" href="css/style2.css" >
+<link rel="stylesheet" type="text/css" href="css/footer.css" >
 <!--web-font-->
 <link href='http://fonts.useso.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.useso.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
@@ -38,8 +39,8 @@
 <body>
 	<!--navigation-->
 	<div class="top-nav ">
-		<nav class="navbar navbar-default">
-			<div class="container navbar-fixed-top ">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 						<span class="sr-only">Toggle navigation</span>
@@ -52,7 +53,20 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-left">
 						<li><a href="index.html" class="active">首页</a></li>
-						<li><a href="tour.html">产品中心</a></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							 产品中心
+							<b class="caret"></b>
+						</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">产品1</a></li>
+								<li><a href="#">产品2</a></li>
+								<li><a href="#">产品3</a></li>
+								<li class="divider"></li>
+								<li><a href="#">产品4</a></li>
+								<li class="divider"></li>
+								<li><a href="#">产品5</a></li>
+							</ul>
+						</li>
 						<li><a href="gallery.html">客户支持</a></li>
 						<li><a href="testimonial.html">关于我们</a></li>
 						<li><a href="blog.html">成功案例</a></li>
@@ -69,11 +83,11 @@
 				</div>
 			</div>
 		</nav>
-	</div>	
+	</div>
 	<!--navigation-->
 	<!--header-->
 	<div class="header">
-		<div class="container">
+		<div class="container" style="margin-top: 55px">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
 			</div>	
@@ -129,8 +143,8 @@
 						<div class="he_slideAllDown">
 							<img class="he_slideAllDown_img" src="images/pro_2.jpg" alt="Image 01">
 							<div class="he_slideAllDown_caption">
-								<h3 class="he_slideAllDown_caption_h">懒人素材</h3>
-								<p class="he_slideAllDown_caption_p">WEB前端应用教程+演示+源码</p>
+								<h3 class="he_slideAllDown_caption_h">半导体</h3>
+								<p class="he_slideAllDown_caption_p">W半导体材料</p>
 								<a class="he_slideAllDown_caption_a" href="http://www.lanrenzhijia.com/"></a>
 							</div>
 						<!--</div>-->
@@ -141,8 +155,8 @@
 						<div class="he_border2">
 							<img class="he_border2_img" src="images/pro_2.jpg" alt="Image 01">
 							<div class="he_border2_caption">
-								<h3 class="he_border2_caption_h">懒人素材</h3>
-								<p class="he_border2_caption_p">WEB前端应用教程+演示+源码</p>
+								<h3 class="he_border2_caption_h">半导体</h3>
+								<p class="he_border2_caption_p">W半导体材料</p>
 								<a class="he_border2_caption_a" href="http://www.lanrenzhijia.com/"></a>
 							</div>
 						<!--</div>-->
@@ -156,8 +170,8 @@
 									<img src="images/pro_3.jpg" alt="img01">
 								</div>
 								<div class="he_3DFlipX_caption">
-									<h3>懒人素材</h3>
-									<p>WEB前端应用教程+演示+源码</p>
+									<h3>半导体</h3>
+									<p>W半导体材料</p>
 								</div>
 								<a href="http://www.lanrenzhijia.com/"></a>
 							</div>
@@ -175,8 +189,8 @@
 									<img src="images/pro_1.jpg" alt="img01">
 								</div>
 								<div class="he_3DFlipY_caption">
-									<h3>懒人素材</h3>
-									<p>WEB前端应用教程+演示+源码</p>
+									<h3>半导体</h3>
+									<p>W半导体材料</p>
 								</div>
 								<a href="http://www.lanrenzhijia.com/"></a>
 							</div>
@@ -188,8 +202,8 @@
 						<div class="he_ZoomInImg">
 							<img class="he_ZoomInImg_img" src="images/pro_2.jpg" alt="Image 01">
 							<div class="he_ZoomInImg_caption">
-								<h3 class="he_ZoomInImg_caption_h">懒人素材</h3>
-								<p class="he_ZoomInImg_caption_p">WEB前端应用教程+演示+源码</p>
+								<h3 class="he_ZoomInImg_caption_h">半导体</h3>
+								<p class="he_ZoomInImg_caption_p">W半导体材料</p>
 								<a class="he_ZoomInImg_caption_a" href="http://www.lanrenzhijia.com/"></a>
 							</div>
 						</div>
@@ -200,8 +214,8 @@
 						<div class="he_ZoomOutImg">
 							<img class="he_ZoomOutImg_img" src="images/pro_3.jpg" alt="Image 01">
 							<div class="he_ZoomOutImg_caption">
-								<h3 class="he_ZoomOutImg_caption_h">懒人素材</h3>
-								<p class="he_ZoomOutImg_caption_p">WEB前端应用教程+演示+源码</p>
+								<h3 class="he_ZoomOutImg_caption_h">半导体</h3>
+								<p class="he_ZoomOutImg_caption_p">W半导体材料</p>
 								<a class="he_ZoomOutImg_caption_a" href="http://www.lanrenzhijia.com/"></a>
 							</div>
 						</div>
@@ -255,78 +269,65 @@
 			</div>
 		</div>
 	</div>
-	<footer class="pf u-fs-6">
-		<div class="container">
-			<div class="row pf-tr pf-ql">
-				<div class="columns two">
-					<h5 class="dinn-medium">产品</h5>
+	<div class="footer">
+		<div class="auto clearfix">
+			<div class="footer-floor1">
+				<div class="footer-list">
 					<ul>
-						<li> <a href="/products">产品</a></li>
-						<li> <a href="/applications">应用</a></li>
-						<li> <a href="/products/new-products">新产品</a></li>
+						<li class="flist-title">产品与服务</li>
+						<li><a href="#"><strong>弹性云服务器</strong></a></li>
+						<li><a href="#"><strong>服务器托管</strong></a></li>
+						<li><a href="#"><strong>云虚拟主机</strong></a></li>
+						<li><a href="#"><strong>某公司管家</strong></a></li>
+						<li><a href="#"><strong>某公司监控</strong></a></li>
 					</ul>
-				</div>
-				<div class="columns two">
-					<h5 class="dinn-medium">新闻和资源</h5>
 					<ul>
-						<li> <a href="/newsroom">新闻编辑室</a></li>
-						<li> <a href="/newsroom/trade-shows">活动和会展</a></li>
-						<li><a href="/design-hub" style="font-weight: lighter;">设计中心</a></li>
-						<li> <a href="/design-hub/blog">博客</a></li>
-						<li> <a href="/design-hub/brochures">手册</a></li>
-						<li> <a href="/design-hub/videos">视频</a></li>
+						<li class="flist-title">云解决方案</li>
+						<li><a href="#">金融解决方案</a></li>
+						<li><a href="#">电商解决方案</a></li>
+						<li><a href="#">移动解决方案</a></li>
+						<li><a href="#">游戏解决方案</a></li>
+						<li><a href="#">网站解决方案</a></li>
 					</ul>
-				</div>
-				<div class="columns two">
-					<h5 class="dinn-medium">公司</h5>
 					<ul>
-						<li> <a href="/about-us">关于我们</a></li>
-						<li> <a href="/about-us/quality">质量</a></li>
-						<li> <a href="/about-us/locations">分支机构</a></li>
-						<li> <a href="/innovation">创新</a></li>
-						<li> <a href="/careers">职业</a></li>
-						<li> <a href="http://ir.qorvo.com/">投资者</a></li>
-						<li> <a href="http://www.qorvo.com/">English Site</a></li>
+						<li class="flist-title">技术与支持</li>
+						<li><a href="#" target="user/">工单系统</a></li>
+						<!--<li><a href="http://icp.niaoyun.com/">备案中心</a></li>-->
+						<li><a href="#">意见反馈</a></li>
+						<li><a href="">会员服务</a></li>
+						<li><a href="#">IDC公司</a></li>
+						<li><a href="#">帮助中心</a></li>
 					</ul>
+					<ul class="flist-4">
+						<li class="flist-title">关于某公司</li>
+						<li><a href="#">公司简介</a></li>
+						<li><a href="#">新闻动态</a></li>
+						<li><a href="#">加入我们</a></li>
+						<li><a href="#">服务协议</a></li>
+						<li><a href="#">友情链接</a></li>
+					</ul>
+					<div class="clear-float"></div>
 				</div>
-				<div class="columns two">
-					<h5 class="dinn-medium">客户支持</h5>
-					<ul>
-						<li> <a href="/support/how-to-buy">如何购买</a></li>
-						<li> <a href="/support">客户支持</a></li>
-						<li> <a href="/portals">门户网站</a></li>
-						<li> <a href="/contact-us">联系我们</a></li>
-					</ul>
+				<div class="footer-right">
+					<div class="telephone" title="服务热线">
+						<span></span>
+						<div class="tel-number">400-688-3065</div>
+					</div>
+					<div class="official-plat">
+						<p class="weixin" style="background-image: "><span id="wx-corner"></span></p>
+
+						<p class="weibo" style="background-image: "><span id="wb-corner"></span></p>
+						<ul>
+							<li><a href="#a_null"><span class="weixin-logo"></span>某公司官方微信</a></li>
+							<li title="点击打开官方微博"><a href="#" target="_blank"><span class="weibo-logo"></span>某公司官方微博</a></li>
+							<li title="点击打开官方客服"><a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=XXXXXXXX&amp;aty=0&amp;a=0&amp;curl=&amp;ty=1"><span class="qq-logo"></span>某公司官方客服</a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="four columns pf-sc">
-					<h5 class="dinn-medium">联系方式</h5>
-					<ul class="horizontal-ul u-fs-7 a-hover-white pf-sc-1">
-						<li class="pf-so-ico"> <a href="http://www.facebook.com/Qorvo" class="icon-facebook"></a></li>
-						<li class="pf-so-ico"> <a href="https://twitter.com/QorvoInc" class="icon-twitter"></a></li>
-						<li class="pf-so-ico"><a href="https://www.linkedin.com/company/qorvo" class="icon-linkedin"></a></li>
-						<li class="pf-so-ico"> <a href="https://www.youtube.com/c/qorvo" class="icon-youtube"></a></li>
-					</ul>
-					<ul class="horizontal-ul u-fs-7 a-hover-white pf-sc-2">
-						<li>   <a href="http://visitor.r20.constantcontact.com/d.jsp?llr=r4iqtwrab&amp;p=oi&amp;m=1118523892721&amp;sit=8h8onccjb&amp;f=7264ba9a-f10b-49ca-ad31-7157f3ecf4c1"><em class="icon-newsletter"></em><span class="pf-sc-2-ico" style="font-size: 10px;">快讯订阅  </span></a></li>
-						<li><a href="/rss-feeds"><em class="icon-rss u-f-med-1"></em><span style="margin-left: 9px; font-size: 10px;">RSS</span></a></li>
-					</ul>
-				</div>
+				<div class="clear-float"></div>
 			</div>
-			<div class="row pf-br">
-				<div class="eight columns pf-sl u-fs-8">
-					<ul class="horizontal-ul">
-						<li><a href="/site-map">站点地图</a></li>
-						<li><a href="mailto:webmaster@qorvo.com?subject=Website Feedback">反馈</a></li>
-						<li><a href="/terms-of-use">使用条款</a></li>
-						<li><a href="/privacy-policy">隐私政策</a></li>
-						<li><a href="/customer-terms">客户条款</a></li>
-					</ul>
-				</div>
-				<div class="four columns pf-c u-text-right u-fs-7"><span>© 2018 Qorvo, Inc <span class="pipe">| </span></span>1-833-641-3810</div>
-			</div>    </div>
-	</footer>
-	<div class="copy-right">
-		<div class="container">
+		</div>
+		<div class="footer-floor2">
 			<p>Copyright &copy; 2018.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="">版权所有</a> - Collect from <a href="http://www.baidu.com/" title="" target="_blank">xxx</a></p>
 		</div>
 	</div>
@@ -350,7 +351,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/footer.js"></script>
 </body>
 
 </html>
-
